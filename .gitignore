@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Build & cache
+build/
+dist/
+*.egg-info/
+*.ipynb_checkpoints/
+
+# Data/weights/checkpoints (keep these out of git; use LFS or releases)
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
